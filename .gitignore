@@ -1,0 +1,13 @@
+.tools/
+.preview-browser*/
+reference-frames/
+*-reference.html
+reference-minhgo.html
+*.tar.gz
+.openai/
+.netlify/
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
