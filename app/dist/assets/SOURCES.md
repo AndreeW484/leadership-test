@@ -8,4 +8,6 @@ El SVG original se conserva. `muniguate-theme.svg` es una adaptación cromática
 
 El diseño toma como referencia visual la grabación de MinhGo proporcionada por el usuario: fondo oscuro, retícula, titulares condensados, bordes rectos y estados interactivos con acentos de color. No se incorporan textos comerciales, fotografías ni el logo de esa página.
 
+El QR utiliza `qrcode-generator` 2.0.4 de Kazuhiko Arase, bajo licencia MIT (`qrcode.LICENSE.txt`). El destino definitivo es `https://leadership-test-munig.netlify.app/`. Los archivos `QR-liderazgo.png` y `QR-liderazgo-afiche.png` se verificaron mediante decodificación, incluidos los márgenes de lectura. Los personajes del afiche son ilustraciones originales de `municipal-team.svg`, inspiradas en la referencia compartida por el usuario.
+
 Los cuatro iconos `leadership-*.png` son ilustraciones originales dibujadas en Canvas y exportadas a PNG transparente de 1536 × 1536. Fuente editable: `app/draw-leadership-icons.js`. Brújula para 10–23 puntos, engranaje para 24–32, brote para 33–41 y faro para 42–50. Se incluyen como data URI en el formulario para generar y descargar los comprobantes sin depender de recursos externos.

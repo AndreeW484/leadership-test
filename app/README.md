@@ -8,7 +8,7 @@ El frontend puede alojarse en Netlify. El archivo `netlify.toml` configura `dist
 
 **Antes del primer envío desde Netlify o desde el servidor local**, reemplaza `Code.gs` en Apps Script por la versión actual (incluye `doPost`) y actualiza la implementación existente con una nueva versión. Conserva la URL `/exec`.
 
-Para publicar en Netlify utiliza un repositorio con `app` como directorio base y su `netlify.toml`, o ejecuta Netlify CLI desde `app`. Arrastrar únicamente `dist/` no publica la función necesaria para guardar respuestas. No se ha publicado ningún sitio en Netlify desde este proyecto.
+Para publicar en Netlify utiliza un repositorio con `app` como directorio base y su `netlify.toml`, o ejecuta Netlify CLI desde `app`. Arrastrar únicamente `dist/` no publica la función necesaria para guardar respuestas. Dirección pública: https://leadership-test-munig.netlify.app/.
 
 Formulario adaptable a celulares: nombre y dependencia, 10 preguntas, validación obligatoria y guardado central en Google Sheets. No requiere administrar un servidor. Google Apps Script sirve la página y escribe en la hoja con permisos del organizador. Los participantes nunca reciben acceso de lectura a la hoja.
 
@@ -23,7 +23,7 @@ Formulario adaptable a celulares: nombre y dependencia, 10 preguntas, validació
 7. Copia la dirección de la aplicación terminada en `/exec`. Configúrala como destino de la función de Netlify. Si alojas el frontend en Netlify, el QR debe abrir la URL pública de Netlify; si usas el frontend de Apps Script, puede abrir esta dirección /exec.
 8. Haz un envío de prueba desde un celular y verifica la fila creada en la pestaña **Respuestas**. Si vuelves a editar el código, actualiza la implementación con una nueva versión.
 
-El QR definitivo se genera cuando exista la URL de implementación. No compartas la hoja con los participantes. Compartir la dirección del formulario permite enviar respuestas; el nombre ingresado no verifica la identidad del participante.
+El QR definitivo abre https://leadership-test-munig.netlify.app/. El afiche y el código se encuentran en `dist/assets/QR-liderazgo-afiche.png` y `dist/assets/QR-liderazgo.png`. No compartas la hoja con los participantes. Compartir la dirección del formulario permite enviar respuestas; el nombre ingresado no verifica la identidad del participante.
 
 ## Resultados y Excel
 
@@ -31,7 +31,7 @@ Cada envío guarda ID, fecha/hora, nombre, dependencia, P1–P10, puntaje total 
 
 ## Insignia para compartir
 
-La insignia utiliza la misma paleta oscura del formulario, con verde lima y tonos verdes suaves. Cada nivel tiene una ilustración distinta; la descripción original se muestra en la aplicación. Muestras locales: `/?demo=diploma&score=18`, `/?demo=diploma&score=28`, `/?demo=diploma&score=37` y `/?demo=diploma&score=45`. Estas vistas no guardan datos. Los cambios visuales no requieren actualizar `Code.gs`; si usas el frontend servido por Google, reemplaza `Index.html`.
+El formulario usa azul intenso, verde lima y fondo claro, junto al logo municipal original. La insignia combina una base verde suave con lima y azul en textos y contornos. Cada nivel tiene una ilustración distinta; la descripción original se muestra en la aplicación. Muestras locales: `/?demo=diploma&score=18`, `/?demo=diploma&score=28`, `/?demo=diploma&score=37` y `/?demo=diploma&score=45`. Estas vistas no guardan datos. Los cambios visuales no requieren actualizar `Code.gs`; si usas el frontend servido por Google, reemplaza `Index.html`.
 
 Después de confirmar el guardado, el servidor devuelve el resultado para generar una insignia cuadrada. La imagen incluye una ilustración ampliada, un sello municipal integrado, el nivel y el nombre completo. La descripción original de la rúbrica aparece encima de la insignia en la aplicación. El puntaje se muestra en la pantalla de resultado; dependencia, fecha y folio quedan en el registro. La clasificación usa la rúbrica que proporcionó el organizador en la fotografía:
 
@@ -53,3 +53,12 @@ La aplicación confirma el éxito únicamente después de que Google confirma la
 ## Vista previa
 
 `dist/index.html` permite revisar el diseño y recorrer las preguntas en un navegador. Con el servidor local, las respuestas se envían a través de la función de conexión; abierto como archivo suelto permite recorrer el formulario pero no guardar. Las vistas de muestra de insignias no realizan envíos. La publicación de Google Apps Script y el envío real requieren acceso a la cuenta Google del organizador.
+
+## Galería y QR
+
+- `badges.html`: las cuatro insignias con datos ficticios de muestra.
+- `qr.html`: afiche con el QR definitivo y descargas de PNG.
+- `assets/QR-liderazgo-afiche.png`: afiche de 2160 × 2700.
+- `assets/QR-liderazgo.png`: código de 1800 × 1800.
+
+La ilustración de colaboradores de la bienvenida es original e inspirada en la referencia compartida por el organizador.

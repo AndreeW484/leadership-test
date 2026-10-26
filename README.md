@@ -11,6 +11,8 @@ Mobile-friendly leadership self-assessment with Google Sheets integration, perso
 - Personalized 2160 × 2160 PNG badges with a different illustration for each level.
 - Image download and native sharing, with a WhatsApp fallback.
 - Responsive interface with locally embedded fonts and illustrations.
+- Municipal blue-and-lime theme, original municipal logo, and a welcome illustration.
+- Badge gallery and a downloadable QR poster linked to the public Netlify form.
 
 ## Run locally
 
@@ -22,6 +24,8 @@ node preview.cjs
 ```
 
 Open http://localhost:4173. To view a sample badge without submitting a response, open http://localhost:4173/?demo=diploma&score=45. Other sample scores: `18`, `28`, and `37`.
+
+Open `/badges.html` to compare all four sample badges, or `/qr.html` to download the QR code and poster. The QR points to https://leadership-test-munig.netlify.app/.
 
 ## Deploy to Netlify
 

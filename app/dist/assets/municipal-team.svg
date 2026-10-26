@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 166" fill="none">
+<g stroke="#182b79" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M20 151h460" stroke="#dce4cd"/>
+<!-- Personajes originales inspirados en el estilo de la referencia. -->
+<g transform="translate(30 5)">
+<path d="M23 82 15 112m61-30 9 30M38 124v21m23-21v21m-23 0h-9m32 0h10"/>
+<path d="m26 79 22-8 23 8 6 47H21Z" fill="#afce35"/>
+<path d="M38 78v45m21-45v45m-22-22h22" stroke="#fff" stroke-width="5"/>
+<circle cx="49" cy="45" r="30" fill="#fff"/>
+<path d="M19 42c0-21 10-32 30-32S79 21 79 42Z" fill="#afce35"/>
+<path d="M15 42h68M42 11v25m13-25v25"/>
+</g>
+<g transform="translate(143 8)">
+<path d="m25 80-9 30m58-30 9 30M38 123v20m22-20v20m-22 0h-8m30 0h8"/>
+<path d="m28 76 20-8 21 8 11 47H19Z" fill="#afce35"/>
+<path d="m43 73 6 10 6-10m-6 10-5 22 5 5 5-5Z" fill="#172b85"/>
+<circle cx="49" cy="42" r="30" fill="#fff"/>
+<circle cx="35" cy="42" r="11"/><circle cx="62" cy="42" r="11"/><path d="M46 41h5"/>
+</g>
+<g transform="translate(255 8)">
+<path d="m27 80-13 28m58-30 10 29M38 123v20m22-20v20m-22 0h-8m30 0h8"/>
+<path d="m27 75 22-8 22 8 6 48H21Z" fill="#afce35"/>
+<path d="M39 74v48m20-48v48" stroke="#fff" stroke-width="5"/>
+<circle cx="49" cy="41" r="30" fill="#fff"/>
+<path d="M20 34C27 7 67 6 78 32L61 29l-16 7Z" fill="#afce35"/>
+<path d="m60 29 22 4"/>
+<path d="m70 101 17-5 6 26-16 4Z" fill="#fff"/>
+</g>
+<g transform="translate(367 6)">
+<path d="m29 80-12 29m53-31 14 25M38 123v22m22-22v22m-22 0h-8m30 0h8"/>
+<path d="m28 76 21-8 21 8 7 47H21Z" fill="#afce35"/>
+<path d="m37 77 12 22 13-22m-13 22v22"/>
+<circle cx="49" cy="43" r="30" fill="#fff"/>
+<path d="M19 38c1-22 16-30 31-30 20 0 29 12 29 30Z" fill="#afce35"/>
+<path d="M16 38h65m-49-9h30"/>
+</g>
+</g></svg>
