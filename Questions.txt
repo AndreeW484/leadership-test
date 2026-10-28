@@ -1,10 +1,10 @@
-1. Tengo claro por qué hago lo que hago como lider.
-2. Las decisiones que tomo están alineadas con mis valores personales.
-3. Admito mis errores y aprendo de ellos.
-4. Mi propósito personal y el propósito de la organización se conectan.
-5. Pienso en cómo mis acciones afectan positivamente a los vecinos.
-6. Me motiva dejar un legado más que obtener reconocimiento.
-7. Actúo de acuerdo con mis principios incluso cuando es difícil.
-8. Mis acciones reflejan el propósito que comunico.
-9. Fomento un ambiente de confianza y colaboración.
-10. Tomo decisiones pensando en el bien comun.
+1. ¿Tengo claro el propósito de mis acciones como líder?
+2. ¿Las decisiones que tomo están alineadas con mis valores personales?
+3. ¿Admito mis errores y aprendo de ellos?
+4. ¿Mi propósito personal está alineado con el propósito de la organización?
+5. ¿Reflexiono sobre cómo mis acciones contribuyen al bienestar de los usuarios?
+6. ¿Me motiva más dejar un legado que obtener reconocimiento?
+7. ¿Actúo de acuerdo con mis principios, incluso cuando es difícil?
+8. ¿Mis acciones reflejan el propósito que comunico?
+9. ¿Fomento un ambiente de confianza y colaboración?
+10. ¿Tomo decisiones pensando en el bien común?
